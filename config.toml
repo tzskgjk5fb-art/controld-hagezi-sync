@@ -1,62 +1,29 @@
 # =============================================================================
 # ControlD Hagezi Sync — Configuration
 # =============================================================================
-# Copy this file to config.toml and customize it.
-# DO NOT commit config.toml if it contains your API token.
+# DO NOT put your API token in this file — it lives in the CONTROLD_API_TOKEN
+# GitHub secret.
 # =============================================================================
 
 [settings]
-# Your ControlD API Write Token.
-# Get it from: https://controld.com/dashboard/api
-# You can also leave this empty and use the CONTROLD_API_TOKEN env var.
 api_token = ""
 
 # Uncomment to skip the upstream freshness report at the end of each sync run.
-# This avoids unauthenticated GitHub API calls (60 req/hr limit) — useful for CI.
 # show_freshness = false
 
 # Set to true to preview changes without modifying anything.
 dry_run = false
 
-# Uncomment to override the fallback mirror base URL.
-# Default: https://hagezi-mirror.dnsbunker.org/controld
-# Only needed if you host your own mirror or the default changes.
-# hagezi_mirror_base = "https://hagezi-mirror.dnsbunker.org/controld"
-
 [profiles]
-# Exact names of your ControlD profiles (case-sensitive).
 names = ["Privacy Profile"]
 
-# =============================================================================
-# FOLDER DEFINITIONS
-# =============================================================================
-# Each line under [folders] maps a friendly name → Hagezi JSON URL.
-# The friendly name is what appears in your ControlD dashboard.
-# =============================================================================
-
 [folders]
-"Android Telemetry" = "https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt"
-"SmartTV Combined"     = "https://github.com/tzskgjk5fb-art/controld-hagezi-sync/blob/main/folders/perflyst-smarttv-folder.json"
-"Adguard CNAME" = "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_original_trackers_justdomains.txt"
-"Smart TV Blocklist Project" = "https://blocklistproject.github.io/Lists/adguard/smart-tv-ags.txt"
-"Console" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_6.txt"
-"Apple" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt"
-"OPPO & Realme" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt"
-"Samsung" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt"
-"Vivo" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt"
-"Windows" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt"
-"Xiaomi" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt"
-"Stalkerware" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt"
-"Adguard DNS Popup" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt"
-
-
-
-# =============================================================================
-# PROFILE → FOLDER MAPPINGS
-# =============================================================================
-# For each profile, list which folders (by friendly name) it should receive.
-# Use the exact names from the [folders] section above.
-# =============================================================================
+"SmartTV Combined"      = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/perflyst-smarttv-folder.json"
+"Android Tracking"      = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/android-tracking-folder.json"
+"Game Console"          = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/game-console-folder.json"
+"AdGuard CNAME Targets" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/adguard-cname-targets-folder.json"
+# Optional - likely to break some Samsung/LG/Roku features:
+"BlocklistProject SmartTV" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/blocklistproject-smarttv-folder.json"
 
 [profile_folders]
-Privacy Profile   = ["Android Telemetry", "SmartTV Combined", "Adguard CNAME", "Smart TV Blocklist Project", "Console", "Apple", "OPPO & Realme", "Samsung", "Vivo", "Windows", "Xiaomi", "Stalkerware", "Adguard DNS Popup"]
+"Privacy Profile" = ["SmartTV Combined", "Android Tracking", "Game Console", "AdGuard CNAME Targets", "BlocklistProject SmartTV"]
