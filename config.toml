@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Tesla", "Kids", "Friends", "Adults"]
+names = ["Privacy Profile"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -35,11 +35,21 @@ names = ["Tesla", "Kids", "Friends", "Adults"]
 # =============================================================================
 
 [folders]
-"Badware Hoster"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
-"Most Abused TLDs"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
-"No Safesearch Support"  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
-"Referral Allow" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
-"META Tracker Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"Android Telemetry" = "https://perflyst.github.io/PiHoleBlocklist/android-tracking.txt"
+"SmartTV Combined"     = "https://github.com/tzskgjk5fb-art/controld-hagezi-sync/blob/main/folders/perflyst-smarttv-folder.json"
+"Adguard CNAME" = "https://raw.githubusercontent.com/AdguardTeam/cname-trackers/master/data/combined_original_trackers_justdomains.txt"
+"Smart TV Blocklist Project" = "https://blocklistproject.github.io/Lists/adguard/smart-tv-ags.txt"
+"Console" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_6.txt"
+"Apple" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_67.txt"
+"OPPO & Realme" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_66.txt"
+"Samsung" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_61.txt"
+"Vivo" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_65.txt"
+"Windows" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_63.txt"
+"Xiaomi" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_60.txt"
+"Stalkerware" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_31.txt"
+"Adguard DNS Popup" = "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt"
+
+
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -49,22 +59,4 @@ names = ["Tesla", "Kids", "Friends", "Adults"]
 # =============================================================================
 
 [profile_folders]
-Tesla   = ["Badware Hoster", "Most Abused TLDs"]
-Kids    = [
-  "Badware Hoster",
-  "Most Abused TLDs",
-  "No Safesearch Support",
-  "Referral Allow"
-]
-Friends = [
-  "Badware Hoster",
-  "Most Abused TLDs",
-  "Referral Allow",
-  "META Tracker Allow"
-]
-Adults  = [
-  "Badware Hoster",
-  "Most Abused TLDs",
-  "Referral Allow",
-  "META Tracker Allow"
-]
+Privacy Profile   = ["Android Telemetry", "SmartTV Combined", "Adguard CNAME", "Smart TV Blocklist Project", "Console", "Apple", "OPPO & Realme", "Samsung", "Vivo", "Windows", "Xiaomi", "Stalkerware", "Adguard DNS Popup"]
