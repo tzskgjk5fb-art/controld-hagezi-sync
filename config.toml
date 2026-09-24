@@ -24,6 +24,8 @@ names = ["Privacy Profile"]
 "AdGuard CNAME Targets" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/adguard-cname-targets-folder.json"
 # Optional - likely to break some Samsung/LG/Roku features:
 "BlocklistProject SmartTV" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/blocklistproject-smarttv-folder.json"
+"Stalkerware Indicators" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/stalkerware-folder.json"
+"AdGuard DNS Popup"      = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/adguard-dns-popup-folder.json"
 
 [profile_folders]
-"Privacy Profile" = ["SmartTV Combined", "Android Tracking", "Game Console", "AdGuard CNAME Targets", "BlocklistProject SmartTV"]
+"Privacy Profile" = ["SmartTV Combined", "Android Tracking", "Game Console", "AdGuard CNAME Targets", "BlocklistProject SmartTV", "Stalkerware Indicators", "AdGuard DNS Popup"]
