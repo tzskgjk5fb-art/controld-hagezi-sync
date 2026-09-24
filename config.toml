@@ -26,6 +26,7 @@ names = ["Privacy Profile"]
 "BlocklistProject SmartTV" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/blocklistproject-smarttv-folder.json"
 "Stalkerware Indicators" = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/stalkerware-folder.json"
 "AdGuard DNS Popup"      = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/adguard-dns-popup-folder.json"
+"HaGeZi DoH Bypass"      = "https://raw.githubusercontent.com/tzskgjk5fb-art/controld-hagezi-sync/main/folders/hagezi-doh-folder.json"
 
 [profile_folders]
-"Privacy Profile" = ["SmartTV Combined", "Android Tracking", "Game Console", "AdGuard CNAME Targets", "BlocklistProject SmartTV", "Stalkerware Indicators", "AdGuard DNS Popup"]
+"Privacy Profile" = ["SmartTV Combined", "Android Tracking", "Game Console", "AdGuard CNAME Targets", "BlocklistProject SmartTV", "Stalkerware Indicators", "AdGuard DNS Popup", "HaGeZi DoH Bypass"]
