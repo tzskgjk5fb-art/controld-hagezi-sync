@@ -55,6 +55,18 @@ SOURCES = [
         "exclude": ["online-metrix.net", "exacttarget.com", "sailthru.com", "go.pardot.com",
                     "mailgun.org", "e.customeriomail.com"],
     },
+    {
+        "file": "stalkerware-folder.json", "group": "Stalkerware Indicators",
+        "urls": [f"{RAW}/AssoEchap/stalkerware-indicators/master/generated/hosts"],
+        "plain": "exact", "exclude": [],
+    },
+    {
+        "file": "adguard-dns-popup-folder.json", "group": "AdGuard DNS Popup",
+        "urls": [f"{RAW}/AdguardTeam/HostlistsRegistry/main/assets/filter_59.txt"],
+        "plain": "exact", "exclude": [],
+        # every rule in this list is ||x^$dnsrewrite=<AdGuard block host>, i.e. a block
+        "rewrite_is_block": True,
+    },
 ]
 
 DOMAIN_RE = re.compile(r"^(?=.{1,253}$)([a-z0-9_](?:[a-z0-9_-]{0,61}[a-z0-9_])?\.)+[a-z0-9-]{2,63}$")
@@ -68,7 +80,7 @@ def fetch(url):
         return r.read().decode("utf-8", "replace").lstrip("\ufeff")
 
 
-def parse(text, plain_mode, skipped):
+def parse(text, plain_mode, skipped, rewrite_is_block=False):
     """Return (whole_blocks, exact_blocks, whole_allows)."""
     whole, exact, allow = set(), set(), set()
     for raw in text.splitlines():
@@ -81,7 +93,9 @@ def parse(text, plain_mode, skipped):
             line = line[2:]
         if "$" in line:
             line, mods = line.split("$", 1)
-            if not all(m.startswith("ctag=") and "~" not in m for m in mods.split(",")):
+            if not all((m.startswith("ctag=") and "~" not in m)
+                   or (rewrite_is_block and not is_allow and m.startswith("dnsrewrite="))
+                   for m in mods.split(",")):
                 skipped.append(raw.strip()); continue
         adblock = line.startswith("|")
         whole_rule = line.startswith("||")
@@ -112,7 +126,7 @@ def build(src, outdir):
     skipped = []
     whole, exact, allow = set(), set(), set()
     for url in src["urls"]:
-        w, e, a = parse(fetch(url), src["plain"], skipped)
+        w, e, a = parse(fetch(url), src["plain"], skipped, src.get("rewrite_is_block", False))
         whole |= w; exact |= e; allow |= a
     ex = {d.lower() for d in src["exclude"]}
     whole -= ex; exact -= ex; allow -= ex
