@@ -5,11 +5,12 @@ plain-text / AdGuard-format blocklists, so controld-hagezi-sync can import them.
 
 Output: one file per folder in folders/  (e.g. folders/android-tracking-folder.json)
 
-Rule mapping (ControlD's "*.x" matches subdomains but NOT x itself, so
-whole-domain rules emit both "x" and "*.x"):
-  ||x^ or |x^         -> block x (+ *.x for ||)
-  @@||x^              -> allow x and *.x   (allow wins over block)
-  plain / hosts lines -> block exact x ("exact" lists) or x + *.x ("wildcard" lists)
+Rule mapping (per Control D's docs, a rule for "x" already covers x AND all
+its subdomains, so "*.x" duplicates are not emitted - this keeps the profile
+under Control D's 10,000 custom-rule limit):
+  ||x^ or |x^         -> block x
+  @@||x^              -> allow x   (allow wins over block)
+  plain / hosts lines -> block x
 Skipped (ControlD can't express them): regex, mid-name wildcards, and modifiers
 other than a positive $ctag=... (negative ctags like ~device_pc are skipped too,
 because a ControlD folder can't be scoped per device type).
@@ -66,6 +67,14 @@ SOURCES = [
         "plain": "exact", "exclude": [],
         # every rule in this list is ||x^$dnsrewrite=<AdGuard block host>, i.e. a block
         "rewrite_is_block": True,
+    },
+    {
+        "file": "hagezi-doh-folder.json", "group": "HaGeZi DoH Bypass",
+        "urls": [f"{RAW}/hagezi/dns-blocklists/main/adblock/doh.txt"],
+        "plain": "exact",
+        # Keep your own Control D endpoints reachable (e.g. phones using Control D
+        # DoH/DoT on home Wi-Fi). Removes dns.controld.com and *.dns.controld.com.
+        "exclude": ["dns.controld.com"],
     },
 ]
 
@@ -134,12 +143,12 @@ def build(src, outdir):
     rules = {}
     for d in sorted(whole):
         if not covered(d, allow):
-            rules[d] = BLOCK; rules["*." + d] = BLOCK
+            rules[d] = BLOCK
     for d in sorted(exact):
         if not covered(d, allow) and not covered(d, whole):
             rules[d] = BLOCK
     for d in sorted(allow):
-        rules[d] = ALLOW; rules["*." + d] = ALLOW
+        rules[d] = ALLOW
 
     if not rules:
         sys.exit(f"{src['group']}: no rules produced - refusing to write an empty folder")
