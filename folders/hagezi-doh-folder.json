@@ -13867,13 +13867,6 @@
       }
     },
     {
-      "PK": "dot.asecdns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dot.centraleu.pi-dns.com",
       "action": {
         "do": 0,
@@ -14386,6 +14379,13 @@
     },
     {
       "PK": "family.dns.doubleangels.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "family.dns.dremaxx.com",
       "action": {
         "do": 0,
         "status": 1
@@ -18803,6 +18803,13 @@
     },
     {
       "PK": "open-resolver1.unima.ac.id",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "open.dns.dremaxx.com",
       "action": {
         "do": 0,
         "status": 1
