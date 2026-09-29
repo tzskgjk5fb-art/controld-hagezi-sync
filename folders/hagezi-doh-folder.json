@@ -6951,6 +6951,13 @@
       }
     },
     {
+      "PK": "dns.ekinao.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "dns.electrotm.org",
       "action": {
         "do": 0,
@@ -18698,6 +18705,13 @@
     },
     {
       "PK": "o1.lt",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "obscuro.top",
       "action": {
         "do": 0,
         "status": 1
