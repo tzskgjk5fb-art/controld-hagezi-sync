@@ -917,13 +917,6 @@
       }
     },
     {
-      "PK": "adgh.xrossj.top",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adghome.charleschan.net",
       "action": {
         "do": 0,
@@ -5530,13 +5523,6 @@
       }
     },
     {
-      "PK": "dns.aaytorr.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.abdullahabas.de",
       "action": {
         "do": 0,
@@ -5643,13 +5629,6 @@
     },
     {
       "PK": "dns.albony.xyz",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.alekberg.net",
       "action": {
         "do": 0,
         "status": 1
@@ -7203,13 +7182,6 @@
       }
     },
     {
-      "PK": "dns.fifux.be",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.filipccz.eu",
       "action": {
         "do": 0,
@@ -7546,13 +7518,6 @@
       }
     },
     {
-      "PK": "dns.guardmydns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.gupthabrothers.in",
       "action": {
         "do": 0,
@@ -7757,6 +7722,13 @@
     },
     {
       "PK": "dns.housedenolf.be",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "dns.hshoe.cn",
       "action": {
         "do": 0,
         "status": 1
@@ -11396,13 +11368,6 @@
       }
     },
     {
-      "PK": "dns.zfsystem.tech",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.zky666.fun",
       "action": {
         "do": 0,
@@ -11774,13 +11739,6 @@
       }
     },
     {
-      "PK": "dns2.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns2.anuar.me",
       "action": {
         "do": 0,
@@ -12124,13 +12082,6 @@
       }
     },
     {
-      "PK": "dnses.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dnsforfamily.com",
       "action": {
         "do": 0,
@@ -12173,20 +12124,6 @@
       }
     },
     {
-      "PK": "dnsnl-noads.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dnsnl.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dnsotls.lab.nic.cl",
       "action": {
         "do": 0,
@@ -12209,20 +12146,6 @@
     },
     {
       "PK": "dnsresolver02.ddns.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dnsse-noads.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dnsse.alekberg.net",
       "action": {
         "do": 0,
         "status": 1
@@ -12720,13 +12643,6 @@
     },
     {
       "PK": "doh.bt.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "doh.bugdns.com",
       "action": {
         "do": 0,
         "status": 1
@@ -18732,13 +18648,6 @@
       }
     },
     {
-      "PK": "odoh-target-noads.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "odoh-target.alekberg.net",
       "action": {
         "do": 0,
@@ -20420,13 +20329,6 @@
     },
     {
       "PK": "sanns.aniuo.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "saomai.dynu.com",
       "action": {
         "do": 0,
         "status": 1
@@ -23031,20 +22933,6 @@
     },
     {
       "PK": "yanggan.eu.org",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "ychen.cf",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "ychen.gq",
       "action": {
         "do": 0,
         "status": 1
