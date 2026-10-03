@@ -8099,13 +8099,6 @@
       }
     },
     {
-      "PK": "dns.jp.anitelecom.org",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.jsd.web.id",
       "action": {
         "do": 0,
@@ -9969,13 +9962,6 @@
     },
     {
       "PK": "dns.rotunneling.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.ru.anitelekom.ru",
       "action": {
         "do": 0,
         "status": 1
@@ -18648,13 +18634,6 @@
       }
     },
     {
-      "PK": "odoh-target.alekberg.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "odvr.nic.cz",
       "action": {
         "do": 0,
@@ -20322,13 +20301,6 @@
     },
     {
       "PK": "sandbox.opendns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "sanns.aniuo.com",
       "action": {
         "do": 0,
         "status": 1
