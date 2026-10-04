@@ -1330,6 +1330,13 @@
       }
     },
     {
+      "PK": "cp.spystealth.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "cp.thewispy.com",
       "action": {
         "do": 0,
@@ -5222,6 +5229,13 @@
       }
     },
     {
+      "PK": "stage.spystealth.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "staging-all-tracker.appspot.com",
       "action": {
         "do": 0,
@@ -5650,6 +5664,13 @@
     },
     {
       "PK": "truewebmedia.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "tt.spystealth.com",
       "action": {
         "do": 0,
         "status": 1

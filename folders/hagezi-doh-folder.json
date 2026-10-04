@@ -6090,13 +6090,6 @@
       }
     },
     {
-      "PK": "dns.briac-mlb.fr",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.brionesserver.net",
       "action": {
         "do": 0,
@@ -12572,13 +12565,6 @@
       }
     },
     {
-      "PK": "doh.azoris.ovh",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "doh.beauty",
       "action": {
         "do": 0,
@@ -18187,13 +18173,6 @@
     },
     {
       "PK": "noads.jpsrvr.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "node3.b4el.ru",
       "action": {
         "do": 0,
         "status": 1
