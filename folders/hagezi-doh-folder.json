@@ -1155,13 +1155,6 @@
       }
     },
     {
-      "PK": "adguard.bug3factory.ddns.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adguard.camn.uk",
       "action": {
         "do": 0,
@@ -1184,20 +1177,6 @@
     },
     {
       "PK": "adguard.chanhome.xyz",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "adguard.chaudharyarnav.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "adguard.chestnov.ru",
       "action": {
         "do": 0,
         "status": 1
@@ -4872,13 +4851,6 @@
       }
     },
     {
-      "PK": "defendfrienddns.fyi",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dehb.ru",
       "action": {
         "do": 0,
@@ -6405,13 +6377,6 @@
       }
     },
     {
-      "PK": "dns.comeonjames.club",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.comff.net",
       "action": {
         "do": 0,
@@ -7715,6 +7680,13 @@
     },
     {
       "PK": "dns.housedenolf.be",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "dns.hqdns.sarl",
       "action": {
         "do": 0,
         "status": 1
@@ -12684,13 +12656,6 @@
       }
     },
     {
-      "PK": "doh.datt.pw",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "doh.de.blahdns.com",
       "action": {
         "do": 0,
@@ -16016,13 +15981,6 @@
       }
     },
     {
-      "PK": "i.dns-over-https.tk",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "iah01.dnscry.pt",
       "action": {
         "do": 0,
@@ -16262,13 +16220,6 @@
     },
     {
       "PK": "itworks4u.nl",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "iux3-s.cuiy4trg8fmosya2iip3ci.name",
       "action": {
         "do": 0,
         "status": 1
