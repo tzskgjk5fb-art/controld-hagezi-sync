@@ -6993,13 +6993,6 @@
       }
     },
     {
-      "PK": "dns.everdns.tech",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.exhome.pl",
       "action": {
         "do": 0,
@@ -14007,13 +14000,6 @@
       }
     },
     {
-      "PK": "easyhandshake.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "ebpmc.diskstation.me",
       "action": {
         "do": 0,
@@ -16472,13 +16458,6 @@
     },
     {
       "PK": "jp01.just-a-web.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "jp1.f7b6h9.tk",
       "action": {
         "do": 0,
         "status": 1
