@@ -1463,13 +1463,6 @@
       }
     },
     {
-      "PK": "adguard.homenetmedia.stream",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adguard.hostingsignal.in",
       "action": {
         "do": 0,
@@ -7630,13 +7623,6 @@
       }
     },
     {
-      "PK": "dns.hopkinton.online",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns.hopsken.com",
       "action": {
         "do": 0,
@@ -8912,13 +8898,6 @@
     },
     {
       "PK": "dns.mrkaran.dev",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.msk.hexagon1736.com",
       "action": {
         "do": 0,
         "status": 1
@@ -15114,13 +15093,6 @@
     },
     {
       "PK": "hdns.ksyun.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "hdnsadguardhome.me",
       "action": {
         "do": 0,
         "status": 1
@@ -21939,13 +21911,6 @@
     },
     {
       "PK": "uw-dns.rubyfish.cn",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "ux.go20.cf",
       "action": {
         "do": 0,
         "status": 1
