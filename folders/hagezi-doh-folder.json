@@ -1512,13 +1512,6 @@
       }
     },
     {
-      "PK": "adguard.johnnypatras.org",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adguard.k-likhachev.ru",
       "action": {
         "do": 0,
@@ -8107,13 +8100,6 @@
     },
     {
       "PK": "dns.kapite.in",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.kapoww.tk",
       "action": {
         "do": 0,
         "status": 1
@@ -19033,6 +19019,13 @@
       }
     },
     {
+      "PK": "pidoh.mapledns.net",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "pihole.aws.ketan.dev",
       "action": {
         "do": 0,
@@ -19202,13 +19195,6 @@
     },
     {
       "PK": "prdot.cldsrv.es",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "premiumtier-network.instadart.net",
       "action": {
         "do": 0,
         "status": 1
@@ -22247,13 +22233,6 @@
     },
     {
       "PK": "vps.atomix.in",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "vps.avc.cx",
       "action": {
         "do": 0,
         "status": 1
