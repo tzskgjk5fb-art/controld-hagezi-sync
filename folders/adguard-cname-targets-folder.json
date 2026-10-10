@@ -98,6 +98,13 @@
       }
     },
     {
+      "PK": "ad1n.net",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "adocean.pl",
       "action": {
         "do": 0,

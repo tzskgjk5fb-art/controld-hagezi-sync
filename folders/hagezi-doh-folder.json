@@ -1666,13 +1666,6 @@
       }
     },
     {
-      "PK": "adguard.neelyha.tk",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adguard.netmasc.services",
       "action": {
         "do": 0,
@@ -1723,13 +1716,6 @@
     },
     {
       "PK": "adguard.ohmhv57.org",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "adguard.oms-ctr.ru",
       "action": {
         "do": 0,
         "status": 1
@@ -4005,13 +3991,6 @@
     },
     {
       "PK": "c.cicitt.ch",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "c1.msocportal.my.id",
       "action": {
         "do": 0,
         "status": 1
@@ -8856,13 +8835,6 @@
     },
     {
       "PK": "dns.moraes.tech",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.moraru.net",
       "action": {
         "do": 0,
         "status": 1
@@ -14581,13 +14553,6 @@
       }
     },
     {
-      "PK": "gauss.pp.ua",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "gb-cov-w-f-1.nashkan.net",
       "action": {
         "do": 0,
@@ -15219,13 +15184,6 @@
     },
     {
       "PK": "hk2.1833015459.site",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "hk2.ooroot.com",
       "action": {
         "do": 0,
         "status": 1
@@ -20972,13 +20930,6 @@
       }
     },
     {
-      "PK": "syre.pp.ua",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "szyrzyk.pl",
       "action": {
         "do": 0,
@@ -21036,13 +20987,6 @@
     },
     {
       "PK": "telex.app",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "teslacoils.org.uk",
       "action": {
         "do": 0,
         "status": 1

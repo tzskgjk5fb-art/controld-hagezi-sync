@@ -3626,20 +3626,6 @@
       }
     },
     {
-      "PK": "klik.zeus.fun",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "klik4.me",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "kms-full.com",
       "action": {
         "do": 0,
@@ -5124,6 +5110,13 @@
       }
     },
     {
+      "PK": "profitableratecpmnetwork.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "promo.stream-films.fr",
       "action": {
         "do": 0,
@@ -5874,13 +5867,6 @@
     },
     {
       "PK": "shoppinglifestyle.biz",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "shortbioo.com",
       "action": {
         "do": 0,
         "status": 1
